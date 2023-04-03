@@ -1,0 +1,29 @@
+{
+  "name": "chista",
+  "version": "1.0.0",
+  "description": "A CLI for learning",
+  "main": "src/index.js",
+  "bin": {
+    "chista": "./bin/chista"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./bin/chista"
+  },
+  "keywords": [
+    "cli",
+    "chista"
+  ],
+  "author": "Zakstein & HedzDev",
+  "license": "MIT",
+  "dependencies": {
+    "arg": "^5.0.2",
+    "esm": "^3.2.25",
+    "inquirer": "^8.2.5",
+    "node-fetch": "2",
+    "shelljs": "^0.8.5"
+  },
+  "devDependencies": {
+    "create-flex-plugin": "^4.3.4"
+  }
+}
